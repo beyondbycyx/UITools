@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ac28581-b6d7-480d-8cfb-a55ec8a6ce47" name="Default" comment="">
+    <list default="true" id="6ac28581-b6d7-480d-8cfb-a55ec8a6ce47" name="Default" comment="add .gradle dir">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib_ui/lib_ui.iml" afterPath="$PROJECT_DIR$/lib_ui/lib_ui.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib_utils/lib_utils.iml" afterPath="$PROJECT_DIR$/lib_utils/lib_utils.iml" />
     </list>
     <ignored path="UITools.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -3567,14 +3566,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UITools" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -3849,6 +3841,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .gradle dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gradle dir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
