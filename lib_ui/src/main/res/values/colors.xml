@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffd72c59</color>
+    <color name="blue">#ff0d59c0</color>
+    <color name="green">#ff2eb63c</color>
+    <color name="gray">#ffeeeeee</color>
+    <color name="orange">#ffd72c59</color>
+    <color name="purple">#ff8249b5</color>
+
+    <!-- ===========文字的颜色========= -->
+
+
+    <!-- 黑色,软件中文字的主色 -->
+    <color name="text_color_1">#ff262626</color>
+
+    <!-- 灰色 -->
+    <color name="text_color_2">#ff666666</color>
+
+    <!-- 浅灰色，目前好像用不到，主要是在inputView的hint文字的颜色 -->
+    <color name="text_color_3">#ffcccccc</color>
+
+    <!-- 橙色 -->
+    <color name="text_color_4">@color/orange</color>
+
+    <!-- 蓝色 -->
+    <color name="text_color_5">#ff2b65ae</color>
+
+    <!-- 红色 -->
+    <color name="text_color_6">#ffd72c59</color>
+    <!-- ============其他颜色========== -->
+
+
+    <color name="bottom_color">#ff377abc</color>
+
+    <!-- 界面大背景的颜色 -->
+    <color name="bg_color">#fff5f5f5</color>
+
+    <!-- 灰色的线条颜色 -->
+    <!-- 浅蓝色 -->
+    <color name="line_color">#ffcccccc</color>
+    
+    <color name="line_color2">#33ffffff</color>
+    <color name="line_color3">#9C9C9C</color>
+    <color name="line_color4">#ff697689</color>
+    <color name="label_bg">#ffefefef</color>
+
+    <!-- 主页选中的颜色 -->
+    <color name="tab_selected_bg">#ff1d4779</color>
+    <color name="title_bg_pressed">#ffc50201</color>
+
+    <!-- 投注界面底部颜色 -->
+    <!--<color name="bottom_bar_bg">#ff2b65ae</color>-->
+    <!--<color name="subtitle_bar_bg">#ff80ade8</color>-->
+    <!--<color name="btn1_bg_pressed">#aad70000</color>-->
+    
+    <color name="btn2_bg">#fff25c02</color>
+    <color name="btn2_bg_unable">#66f25c02</color>
+    <color name="btn2_bg_pressed">#aaf25c02</color>
+    
+
+    <!-- 橘色 -->
+    <color name="btn3_bg">#ff333333</color>
+    <color name="btn3_bg_pressed">#66333333</color>
+    
+    <!--  -->
+    <color name="btn4_bg">#ffffffff</color>
+    <color name="btn4_bg_pressed">#ffeeeeee</color>
+    
+    <!-- 灰色 -->
+    <color name="btn5_bg">#ff939393</color>
+    <color name="btn5_bg_pressed">#aa939393</color>
+    
+    <!-- 按钮文字颜色 -->
+    <!-- 棕色  黄色按钮文字颜色-->
+    <color name="btn_text_color1">#ff4c230d</color>
+    
+    <!-- 走势图的颜色 -->
+    <color name="tc_color1">#ffd52a54</color>
+    <color name="tc_color2">#ffdf7f41</color>
+    <color name="tc_color3">#ff90b256</color>
+    <color name="tc_color4">#ff0d59c0</color>
+    <color name="tc_color5">#ffca64d9</color>
+    
+    <!-- 手势 -->
+	<color name="gesture_background">#ff303237</color>
+    <color name="color_hei_8">#00000000</color>
+
+    <drawable name="trans">#ff555555</drawable>
+    
+
+</resources>

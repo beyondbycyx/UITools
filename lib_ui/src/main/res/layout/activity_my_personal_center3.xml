@@ -1,0 +1,45 @@
+<com.lian.lottery.views.PullToRefreshScrollView2 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pull_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment_userinfo"
+            android:name="com.lian.lottery.activity.user.UserInfoFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fragment_my_center_menu"
+            android:name="com.lian.lottery.activity.user.PersonalCenterMenuFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/selector_btn7"
+                android:gravity="center"
+                android:text="退出登录"
+                android:textColor="@color/text_color_2"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.lian.lottery.views.PullToRefreshScrollView2>

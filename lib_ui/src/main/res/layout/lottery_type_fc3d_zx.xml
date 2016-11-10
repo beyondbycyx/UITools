@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/lottery_type_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text_style_white_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/number_bg"
+            android:gravity="center"
+            android:text="@string/bw" >
+        </TextView>
+
+        <com.lian.lottery.views.BallPanelView
+            xmlns:bpv="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bpv_3d_bw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="6dip"
+            bpv:ballCount="10" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginLeft="60dp"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text_style_white_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/number_bg"
+            android:gravity="center"
+            android:text="@string/sw" >
+        </TextView>
+
+        <com.lian.lottery.views.BallPanelView
+            xmlns:bpv="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bpv_3d_sw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="6dip"
+            bpv:ballCount="10" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginLeft="60dp"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text_style_white_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/number_bg"
+            android:gravity="center"
+            android:text="@string/gw" >
+        </TextView>
+
+        <com.lian.lottery.views.BallPanelView
+            xmlns:bpv="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bpv_3d_gw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="6dip"
+            bpv:ballCount="10" />
+    </LinearLayout>
+
+</LinearLayout>

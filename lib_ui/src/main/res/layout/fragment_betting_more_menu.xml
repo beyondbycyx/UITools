@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="100dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@color/tab_selected_bg"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/ll_trend_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_betting_more_menu_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="gone"
+
+        >
+
+        <TextView
+            style="@style/text_style_white_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/ic_zst"
+            android:layout_gravity="center"
+            android:text="走势图" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/ll_join_hemai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_betting_more_menu_bg"
+        android:clickable="true"
+        android:gravity="center">
+
+        <TextView
+            style="@style/text_style_white_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/ic_join_hemai"
+            android:text="参与合买" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="bottom"
+            android:background="@color/line_color" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/ll_lottery_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_betting_more_menu_bg"
+        android:clickable="true"
+        >
+
+        <TextView
+            style="@style/text_style_white_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/ic_lottery_notiece2"
+            android:text="开奖公告" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="bottom"
+            android:background="@color/line_color" />
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_betting_more_menu_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/text_style_white_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/ic_play_instru"
+            android:text="玩法介绍" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+</LinearLayout>

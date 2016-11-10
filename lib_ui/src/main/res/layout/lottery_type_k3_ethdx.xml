@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/lottery_type_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                style="@style/text_style_white_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/k3_number_label_bg"
+                android:gravity="center"
+                android:text="同号" >
+            </TextView>
+
+            <TextView
+                style="@style/text_style_white_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/k3_yilou_bg"
+                android:gravity="center"
+                android:text="@string/omit" />
+        </LinearLayout>
+
+        <com.lian.lottery.views.BallPanelView2
+            xmlns:bpv="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bpv_ethdx_th"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="13dp"
+            bpv:ballCount="6"
+            bpv:ballWidth="48dp"
+            bpv:isShowBallLabel="false"
+            bpv:omitMaxTextColor="@color/red"
+            bpv:omitTextColor="@color/white"
+            bpv:startNumber="1"
+            bpv:withOmit="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                style="@style/text_style_white_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/k3_number_label_bg"
+                android:gravity="center"
+                android:text="单号" >
+            </TextView>
+
+            <TextView
+                style="@style/text_style_white_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/k3_yilou_bg"
+                android:gravity="center"
+                android:text="@string/omit" />
+        </LinearLayout>
+
+        <com.lian.lottery.views.BallPanelView2
+            xmlns:bpv="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bpv_ethdx_dh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="13dp"
+            bpv:ballCount="6"
+            bpv:ballWidth="48dp"
+            bpv:isShowBallLabel="false"
+            bpv:startNumber="1"
+            bpv:withOmit="true" 
+            bpv:omitTextColor="@color/white"
+        	bpv:omitMaxTextColor="@color/red"/>
+    </LinearLayout>
+
+</LinearLayout>

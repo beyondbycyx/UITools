@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_2e524885e33081e1df9ffe63215708738b414d85.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_b8cf08ce35ddfc830307256a49d87293eae8bd1b.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_45f34e358c810b4e39fd136ade6c47dd11bec3d0.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_23dc310a501aadf6b4b561ec3b6bc5e2cd98a0e3.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_a45da59af5a61fa630d20bbdcf49d3400679b7ba.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/CpRefactor/lib_utils/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e2c08a1271312325ab35514faa6427652ea7227c">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/CpRefactor-lib_utils-unspecified_42bcde9637ca56c06612b6df0cccb1748cc0daca.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/glide-3.7.0_51542b6ecbf439981aaa35336660476777715fb3.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_6ff709274e3f18a7601a083d8802a87ffb33234b.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_8634e8d1d3def02bb0479db3d1f9693f36f4faf1.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_d69d5bc256c6f5c0993828cf3bcca6fadb18cc99.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/CpRefactor/lib_ui/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="2108b75e32c4e75d8ab2fc6126b1797bd584d637">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/CpRefactor-lib_ui-unspecified_5d8416e40325766b6c7eca6effd171e3dc8327b3.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_ff3a39ca373d1d002fc303efa15fdcb8a26181cf.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_56a5ddaf1297b74165e90a4bc7c817b972d68812.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_4d3f08575dd5d409afb647e6fc093a40f10f1bdd.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7f19d30d53852e4501484f422d9294bbb66dcd8c.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_76f8980652f2d28db56aacc92a05954006bff55a.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2c1c2ad7a39d95207fd388daa93b862fe849dd98.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_7ace1d8e3754bba3b2f060dd5b3f0f1559463413.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_565f6d7555cad826496d429509ac656353352828.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_5dd9d5bb6dacdd1f5c9b1285e4f2fd8ad2a7b731.jar" />
+    </item>
+    <item
+        jar="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/huangquan/AndroidStudioProjects/CpRefactor/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_d94828ff137389ab3eee330d9e5124840933f12d.jar" />
+    </item>
+
+</items>

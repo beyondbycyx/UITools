@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/tv_issue"
+            style="@style/text_style_color2_14"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:text="201404040" />
+
+        <TextView
+            android:id="@+id/tv_multible"
+            style="@style/text_style_color1_14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="1倍" />
+
+        <TextView
+            android:id="@+id/tv_money"
+            style="@style/text_style_color1_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            android:text="22元" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="21dp"
+        android:background="@color/line_color" />
+
+</LinearLayout>

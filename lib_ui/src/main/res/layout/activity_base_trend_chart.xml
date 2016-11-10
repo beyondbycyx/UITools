@@ -1,0 +1,213 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_head_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/clock_yellow" />
+
+            <TextView
+                android:id="@+id/tv_timer"
+                style="@style/text_style_color1_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="20:00" />
+
+            <Button
+                android:id="@+id/btn_complete"
+                style="@style/text_style_color1_14"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="@drawable/selector_btn1"
+                android:gravity="center"
+                android:text="完成"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color" />
+    </LinearLayout>
+
+    <ViewAnimator
+        android:id="@+id/va_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_footer_bar_container"
+        android:layout_below="@+id/ll_head_bar" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp" >
+
+                <LinearLayout
+                    android:id="@+id/btn_setting"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center" >
+
+                    <TextView
+                        style="@style/text_style_white_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/icon_set"
+                        android:drawablePadding="6dp"
+                        android:gravity="center"
+                        android:text="设置" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/line_color" />
+
+                <LinearLayout
+                    android:id="@+id/ll_title_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_loading"
+                style="@style/text_style_color2_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="正在加载往期开奖列表..." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_net_error" />
+
+        </LinearLayout>
+    </ViewAnimator>
+
+    <LinearLayout
+        android:id="@+id/ll_footer_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_select_ball_label"
+                style="@style/text_style_color1_14"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="选号" />
+
+            <FrameLayout
+                android:id="@+id/fl_bpv_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.lian.lottery.trendchart.view.TrendChartBallPanelView
+                    xmlns:tcbpv="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/tbpv_ball_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </com.lian.lottery.trendchart.view.TrendChartBallPanelView>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_select_number_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_selected_number_label"
+                style="@style/text_style_color1_14"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="已选" />
+
+            <TextView
+                android:id="@+id/tv_selected_number"
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

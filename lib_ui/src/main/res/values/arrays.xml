@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 双色球玩法 -->
+    <string-array name="ssq_rules">
+        <item>普通投注</item>
+        <item>胆拖投注</item>
+    </string-array>
+    <!-- 大乐透玩法 -->
+    <string-array name="dlt_rules">
+        <item>普通投注</item>
+        <item>胆拖投注</item>
+    </string-array>
+    <!-- 3D玩法 -->
+    <string-array name="x3d_rules">
+        <item>直选</item>
+        <item>直选和值</item>
+        <item>组三复式</item>
+        <item>组三和值</item>
+        <item>组六</item>
+        <item>组六和值</item>
+    </string-array>
+    <string-array name="pl3_rules">
+        <item>直选</item>
+        <item>直选和值</item>
+        <item>组三复式</item>
+        <item>组三和值</item>
+        <item>组六</item>
+        <item>组六和值</item>
+    </string-array>
+    <string-array name="x3d_rules_to_server">
+        <item>直选</item>
+        <item>组三</item>
+        <item>组三</item>
+        <item>组六</item>
+    </string-array>
+    <string-array name="k3_rules">
+        <item>和值</item>
+        <item>三同号通选</item>
+        <item>三同号单选</item>
+        <item>二同号复选</item>
+        <item>二同号单选</item>
+        <item>三不同号</item>
+        <item>二不同号</item>
+        <item>三连号通选</item>
+    </string-array>
+    <string-array name="k2_rules">
+        <item>普通投注</item>
+        <item>胆拖投注</item>
+    </string-array>
+    <string-array name="qlc_rules">
+        <item>普通投注</item>
+        <item>胆拖投注</item>
+    </string-array>
+    <string-array name="y11_rules">
+        <item>任选二</item>
+        <item>任选三</item>
+        <item>任选四</item>
+        <item>任选五</item>
+        <item>任选六</item>
+        <item>任选七</item>
+        <item>任选八</item>
+        <item>前一</item>
+        <item>前二直选</item>
+        <item>前二组选</item>
+        <item>前三直选</item>
+        <item>前三组选</item>
+        <item>任选二</item>
+        <item>任选三</item>
+        <item>任选四</item>
+        <item>任选五</item>
+        <item>任选六</item>
+        <item>任选七</item>
+        <item>前二组选</item>
+        <item>前三组选</item>
+    </string-array>
+    <string-array name="y11_rule_info">
+        <item>猜中开奖的任意2个号即奖</item>
+        <item>猜中开奖的任意3个号即奖</item>
+        <item>猜中开奖的任意4个号即奖</item>
+        <item>猜中开奖的全部5个号即奖</item>
+        <item>猜中开奖的全部5个号即奖</item>
+        <item>猜中开奖的全部5个号即奖</item>
+        <item>猜中开奖的全部5个号即奖</item>
+        <item>猜中开奖的第1位即奖</item>
+        <item>与开奖前2位一一对应即奖</item>
+        <item>猜中开奖前2位顺序不限即奖</item>
+        <item>与开奖前3位一一对应即奖</item>
+        <item>猜中开奖前3位顺序不限即奖</item>
+    </string-array>
+    <string-array name="y11_rules_normal">
+        <item>任选二</item>
+        <item>任选三</item>
+        <item>任选四</item>
+        <item>任选五</item>
+        <item>任选六</item>
+        <item>任选七</item>
+        <item>任选八</item>
+        <item>前一</item>
+        <item>前二直选</item>
+        <item>前二组选</item>
+        <item>前三直选</item>
+        <item>前三组选</item>
+        
+        <item>任选二胆拖</item>
+        <item>任选三胆拖</item>
+        <item>任选四胆拖</item>
+        <item>任选五胆拖</item>
+        <item>任选六胆拖</item>
+        <item>任选七胆拖</item>
+        <item>任选八胆拖</item>
+        <item>前二组选胆拖</item>
+        <item>前三组选胆拖</item>
+    </string-array>
+    <string-array name="sdqyh_rules">
+        <item>任选一</item>
+        <item>任选二</item>
+        <item>任选三</item>
+        <item>任选四</item>
+        <item>任选五</item>
+        <item>任选六</item>
+        <item>任选七</item>
+        <item>任选八</item>
+        <item>任选九</item>
+        <item>任选十</item>
+        <item>围二</item>
+        <item>围三</item>
+        <item>围四</item>
+        <item>围五</item>
+        <item>顺一</item>
+        <item>顺二</item>
+        <item>顺三</item>
+    </string-array>
+    <string-array name="y11_rules_dantuo">
+        <item>任选二</item>
+        <item>任选三</item>
+        <item>任选四</item>
+        <item>任选五</item>
+        <item>任选六</item>
+        <item>任选七</item>
+        <item>前二组选</item>
+        <item>前三组选</item>
+    </string-array>
+    <string-array name="kl8_rules">
+        <item>任选一</item>
+        <item>任选二</item>
+        <item>任选三</item>
+        <item>任选四</item>
+        <item>任选五</item>
+        <item>任选六</item>
+        <item>任选七</item>
+        <item>任选八</item>
+        <item>任选九</item>
+        <item>任选十</item>
+    </string-array>
+    <string-array name="ssc_rules">
+        <item>一星直选</item>
+        <item>二星直选</item>
+        <item>二星组选</item>
+        <item>二星直选和值</item>
+        <item>三星直选</item>
+        <item>三星直选和值</item>
+        <item>三星组三复式</item>
+        <item>三星组六</item>
+        <item>三星组六和值</item>
+        <item>五星直选</item>
+        <!--<item>四星直选</item>-->
+        <item>五星通选</item>
+        <item>大小单双</item>
+    </string-array>
+    <string-array name="jxssc_rules">
+        <item>一星直选</item>
+        <item>二星直选</item>
+        <item>二星组选</item>
+        <item>二星直选和值</item>
+        <item>三星直选</item>
+        <item>三星直选和值</item>
+        <item>三星组三复式</item>
+        <item>三星组六</item>
+        <item>三星组六和值</item>
+        <item>五星直选</item>
+        <!--<item>五星通选</item>-->
+        <!--<item>大小单双</item>-->
+        <item>四星直选</item>
+        <!--<item>任一</item>-->
+        <!--<item>任二</item>-->
+    </string-array>
+    <string-array name="daxiaodanshuang">
+        <item>大</item>
+        <item>小</item>
+        <item>单</item>
+        <item>双</item>
+    </string-array>
+    <string-array name="bet_rules">
+        <item>直选</item>
+        <item>胆拖</item>
+    </string-array>
+    <string-array name="qxc_choose_indicator">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+    </string-array>
+    <string-array name="zusan_single_indicator">
+        <item>重号</item>
+        <item>单号</item>
+    </string-array>
+    <string-array name="digital_choose_indicator">
+        <item>万位</item>
+        <item>千位</item>
+        <item>百位</item>
+        <item>十位</item>
+        <item>个位</item>
+    </string-array>
+    <string-array name="choose_hint_ssq">
+        <item>至少选择6个红球 1个蓝球</item>
+        <item>至少选择1个蓝球</item>
+    </string-array>
+    <string-array name="choose_hint_ssq_dantuo">
+        <item>胆码区-红球，至少选择1个,最多5个</item>
+        <item>拖码区-红球，至少选择2个</item>
+        <item>拖码区-蓝球，至少选择1个</item>
+    </string-array>
+    <string-array name="choose_hint_dlt_dantuo">
+        <item>胆码区-前区，至少选择1个,最多4个</item>
+        <item>胆码区-后区，至多选择1个</item>
+        <item>拖码区-前区</item>
+        <item>拖码区-后区，至少选择2个</item>
+    </string-array>
+    <string-array name="choose_hint_qlc_dantuo">
+        <item>红球-胆码区，至少选择1个,最多6个</item>
+        <item>红球-拖码区，至少选择2个</item>
+    </string-array>
+    <string-array name="choose_hint_dlt">
+        <item>至少选择5个红球 2个蓝球</item>
+        <item>至少</item>
+    </string-array>
+    <string-array name="choose_hint_qlc">
+        <item>请至少选择7个号码</item>
+    </string-array>
+    <string-array name="random_hint_ssq">
+        <item>机选红球</item>
+        <item>机选蓝球</item>
+    </string-array>
+    <string-array name="random_hint_dlt">
+        <item>机选前区</item>
+        <item>机选后区</item>
+    </string-array>
+    <string-array name="random_hint">
+        <item>机选号码</item>
+    </string-array>
+    <string-array name="random_bets">
+        <item>机选1注</item>
+        <item>机选2注</item>
+        <item>机选3注</item>
+        <item>机选4注</item>
+        <item>机选5注</item>
+        <item>机选6注</item>
+        <item>机选7注</item>
+        <item>机选8注</item>
+        <item>机选9注</item>
+        <item>机选10注</item>
+    </string-array>
+    <string-array name="event_tag_hall">
+        <item>倒计时按钮</item>
+        <item>选号投注按钮</item>
+        <item>合买投注按钮</item>
+        <item>刷新按钮</item>
+        <item>查看公告</item>
+        <item>下拉刷新</item>
+    </string-array>
+    <string-array name="event_tag_tab">
+        <item>购彩大厅</item>
+        <item>合买列表</item>
+        <item>开奖信息</item>
+        <item>幸运选号</item>
+        <item>我的彩票</item>
+    </string-array>
+    <string-array name="event_tag_more">
+        <item>登录</item>
+        <item>退出登录</item>
+        <item>注册</item>
+        <item>帮助</item>
+        <item>检查更新</item>
+        <item>分享</item>
+        <item>更多产品推荐</item>
+        <item>反馈</item>
+        <item>关于</item>
+        <item>查看消息</item>
+    </string-array>
+    <string-array name="event_tag_betting">
+        <item>清空按钮</item>
+        <item>玩法说明按钮</item>
+        <item>机选红球按钮</item>
+        <item>机选蓝球按钮</item>
+        <item>摇手机机选</item>
+        <item>机选一注</item>
+        <item>机选五注</item>
+        <item>机选十注</item>
+        <item>玩法说明菜单</item>
+        <item>改变投注方式</item>
+        <item>进入投注页面</item>
+        <item>查看往期开奖</item>
+        <item>查看d11走势图</item>
+    </string-array>
+    <string-array name="event_trend_chart">
+        <item>d11选号页</item>
+        <item>查看全屏走势图</item>
+        <item>走势图选号</item>
+    </string-array>
+    <string-array name="event_tag_bets_confirmed">
+        <item>增加机选按钮</item>
+        <item>增加手选按钮</item>
+        <item>倍投/追号</item>
+        <item>总次数</item>
+        <item>提交订单</item>
+        <item>删除行</item>
+        <item>编辑行</item>
+        <item>增加手选菜单</item>
+        <item>清空列表</item>
+        <item>追号设置</item>
+        <item>倍投设置</item>
+        <item>保存选号提示框</item>
+        <item>保存选号</item>
+        <item>取消选号</item>
+    </string-array>
+    <string-array name="event_tag_pay_page">
+        <item>付款按钮</item>
+        <item>其他支付方式按钮</item>
+        <item>支付失败</item>
+        <item>提示其它支付按钮</item>
+        <item>开通小额支付</item>
+    </string-array>
+    <string-array name="event_tag_my_lottery">
+        <item>我的普通投注</item>
+        <item>我的合买</item>
+        <item>我的追号</item>
+        <item>余额按钮</item>
+        <item>红包</item>
+        <item>彩票积分</item>
+        <item>我发起的合买</item>
+        <item>下拉刷新</item>
+        <item>刷新</item>
+        <item>网易宝</item>
+        <item>设置</item>
+        <item>用户信息</item>
+        <item>分享</item>
+        <item>注销</item>
+        <item>购彩提醒</item>
+        <item>推送设置</item>
+    </string-array>
+    <string-array name="event_tag_orders">
+        <item>所有订单</item>
+        <item>中奖订单</item>
+        <item>未开奖订单</item>
+        <item>刷新</item>
+        <item>下拉刷新</item>
+    </string-array>
+    <string-array name="event_tag_setting">
+        <item>设置</item>
+        <item>设置大厅</item>
+        <item>设置闹钟</item>
+        <item>设置微博</item>
+    </string-array>
+    <string-array name="event_tag_share">
+        <item>进入分享</item>
+        <item>分享客户端</item>
+        <item>分享订单</item>
+        <item>分享合买</item>
+        <item>分享公告</item>
+        <item>分享开奖</item>
+        <item>分享资讯</item>
+        <item>分享新手引导</item>
+    </string-array>
+    <string-array name="event_tag_lottery_history">
+        <item>开奖大厅</item>
+        <item>刷新</item>
+        <item>当期奖级</item>
+        <item>往期奖级</item>
+        <item>下拉刷新</item>
+    </string-array>
+    <string-array name="event_tag_group_buy">
+        <item>刷新</item>
+        <item>总额</item>
+        <item>战绩</item>
+        <item>进度</item>
+        <item>升降序</item>
+        <item>排序设置</item>
+        <item>详情</item>
+        <item>下拉刷新</item>
+    </string-array>
+    <string-array name="prefs_alarm_buy_switch">
+        <item>双色球</item>
+        <item>大乐透</item>
+        <item>3D</item>
+        <item>七乐彩</item>
+        <item>七星彩</item>
+        <item>排列三</item>
+        <item>排列五</item>
+    </string-array>
+    <string-array name="prefs_alarm_buy_switch_summary">
+        <item>每周二、四、日提醒</item>
+        <item>每周一、三、六提醒</item>
+        <item>每天提醒</item>
+        <item>每周一、三、五提醒</item>
+        <item>每周二、五、日提醒</item>
+        <item>每天提醒</item>
+        <item>每天提醒</item>
+    </string-array>
+    <string-array name="weibo_types">
+        <item>网易微博</item>
+        <item>新浪微博</item>
+        <item>人人网</item>
+        <item>腾讯微博</item>
+        <item>搜狐微博</item>
+    </string-array>
+    <string-array name="order_status_filter">
+        <item>所有订单</item>
+        <item>投注成功</item>
+        <item>待开奖订单</item>
+        <item>待支付订单</item>
+        <item>中奖订单</item>
+    </string-array>
+    <string-array name="order_follow_status_filter">
+        <item>所有订单</item>
+        <item>正在追号</item>
+        <item>待支付订单</item>
+        <item>中奖订单</item>
+    </string-array>
+    <string-array name="lucky_betting_types">
+        <item>星座</item>
+        <item>属相</item>
+        <item>生日</item>
+        <item>姓名</item>
+        <item>情侣</item>
+    </string-array>
+    <string-array name="lucky_betting_counts">
+        <item>1注</item>
+        <item>2注</item>
+        <item>3注</item>
+        <item>4注</item>
+        <item>5注</item>
+        <item>6注</item>
+        <item>7注</item>
+        <item>8注</item>
+        <item>9注</item>
+        <item>10注</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+    <string-array name="constallations">
+        <item>狮子</item>
+        <item>处女</item>
+        <item>天枰</item>
+        <item>天蝎</item>
+        <item>射手</item>
+        <item>摩羯</item>
+        <item>水瓶</item>
+        <item>双鱼</item>
+        <item>白羊</item>
+        <item>金牛</item>
+        <item>双子</item>
+        <item>巨蟹</item>
+    </string-array>
+    <string-array name="chinese_zodiac">
+        <item>鼠</item>
+        <item>牛</item>
+        <item>虎</item>
+        <item>兔</item>
+        <item>龙</item>
+        <item>蛇</item>
+        <item>马</item>
+        <item>羊</item>
+        <item>猴</item>
+        <item>鸡</item>
+        <item>狗</item>
+        <item>猪</item>
+    </string-array>
+    <string-array name="credit_deduct_option">
+        <item>满100积分时抵扣</item>
+        <item>满500积分时抵扣</item>
+        <item>满1000积分时抵扣</item>
+        <item>满2000积分时抵扣</item>
+        <item>关闭积分抵扣</item>
+    </string-array>
+    <string-array name="jxssc_dxds">
+        <item>小 小</item>
+        <item>小 大</item>
+        <item>大 小</item>
+        <item>大 大</item>
+        <item>单 单</item>
+        <item>单 双</item>
+        <item>双 单</item>
+        <item>双 双</item>
+        <item>小 单</item>
+        <item>小 双</item>
+        <item>单 小</item>
+        <item>双 小</item>
+        <item>大 单</item>
+        <item>大 双</item>
+        <item>单 大</item>
+        <item>双 大</item>
+    </string-array>
+    <string-array name="news_tabs">
+        <item>焦点</item>
+        <item>彩市</item>
+    </string-array>
+    <string-array name="expert_tabs">
+        <item>双色球</item>
+        <item>大乐透</item>
+        <item>胜负彩</item>
+        <item>更多</item>
+        <item>福彩</item>
+        <item>专家</item>
+        <item>足彩</item>
+        <item>体彩</item>
+        <item>竞彩</item>
+        <item>篮彩</item>
+        <item>进球彩</item>
+        <item>小联赛</item>
+    </string-array>
+    <string-array name="bjdc_rule">
+        <item>胜平负</item>
+    </string-array>
+    <string-array name="jczq_rule">
+        <item>胜平负</item>
+        <item>让球胜平负</item>
+        <item>比分</item>
+        <item>总进球</item>
+        <item>半全场</item>
+        <item>混合过关</item>
+    </string-array>
+    <string-array name="jcbasketball_rule">
+        <item>胜负</item>
+        <item>让分胜负</item>
+        <item>胜分差</item>
+        <item>大小分</item>
+        <item>混合过关</item>
+    </string-array>
+    <string-array name="concede_choices">
+        <item>让球</item>
+        <item>非让球</item>
+    </string-array>
+    <string-array name="spf_bet">
+        <item>主胜</item>
+        <item>平</item>
+        <item>主负</item>
+    </string-array>
+    <string-array name="spf">
+        <item>胜</item>
+        <item>平</item>
+        <item>负</item>
+    </string-array>
+    <string-array name="short_weekdays">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="first_level_leagues">
+        <item>世界杯</item>
+        <item>欧洲杯</item>
+        <item>意甲</item>
+        <item>西甲</item>
+        <item>德甲</item>
+        <item>英超</item>
+        <item>法甲</item>
+        <item>荷甲</item>
+        <item>英足总杯</item>
+        <item>英联赛杯</item>
+        <item>冠军杯</item>
+        <item>欧联杯</item>
+        <item>苏超</item>
+        <item>西国王杯</item>
+        <item>德国杯</item>
+        <item>德乙</item>
+        <item>意超级杯</item>
+        <item>意乙</item>
+        <item>英冠</item>
+        <item>英超</item>
+        <item>葡超</item>
+        <item>中超</item>
+        <item>美洲杯</item>
+        <item>亚洲杯</item>
+        <item>金杯赛</item>
+        <item>欧超杯</item>
+        <item>美职附</item>
+        <item>欧锦预</item>
+        <item>其他赛事</item>
+    </string-array>
+    <string-array name="mls_title">
+        <item>竞彩比分</item>
+        <item>单场比分</item>
+        <item>足彩比分</item>
+    </string-array>
+    <string-array name="order_type">
+        <item></item>
+        <item>普通投注</item>
+        <item>追号</item>
+        <item>参与合买</item>
+        <item>发起合买</item>
+        <item>赠送订单</item>
+        <item>受赠订单</item>
+        <item>定制跟单</item>
+        <item>套餐</item>
+        <item>连续合买</item>
+        <item></item>
+        <item>定制抄单</item>
+    </string-array>
+    <string-array name="five_league">
+        <item>意甲</item>
+        <item>西甲</item>
+        <item>德甲</item>
+        <item>英超</item>
+        <item>法甲</item>
+    </string-array>
+    <string-array name="order_types">
+        <item>全部订单</item>
+        <item>中奖订单</item>
+        <item>待开奖订单</item>
+        <item>追号订单</item>
+        <item>合买订单</item>
+    </string-array>
+    <string-array name="smart_follow_event">
+        <item>取消</item>
+        <item>查看说明</item>
+        <item>修改方案</item>
+        <item>生成方案</item>
+        <item>智能追号付款</item>
+        <item>盈利率生成</item>
+        <item>盈利生成</item>
+        <item>半盈利率生成</item>
+        <item>修改倍数</item>
+    </string-array>
+    <string-array name="betconfirmed_smart_follow_event">
+        <item>投注确认</item>
+        <item>智能追号</item>
+        <item>常规追号付款</item>
+        <item>高频常规付款</item>
+    </string-array>
+    <string-array name="ks_hz_nums">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="ks_hz_prize">
+        <item>奖金240元</item>
+        <item>奖金80元</item>
+        <item>奖金40元</item>
+        <item>奖金25元</item>
+        <item>奖金16元</item>
+        <item>奖金12元</item>
+        <item>奖金10元</item>
+        <item>奖金9元</item>
+        <item>奖金9元</item>
+        <item>奖金10元</item>
+        <item>奖金12元</item>
+        <item>奖金16元</item>
+        <item>奖金25元</item>
+        <item>奖金40元</item>
+        <item>奖金80元</item>
+        <item>奖金240元</item>
+    </string-array>
+    <string-array name="ks_sthdx_nums">
+        <item>111</item>
+        <item>222</item>
+        <item>333</item>
+        <item>444</item>
+        <item>555</item>
+        <item>666</item>
+    </string-array>
+    <string-array name="ks_sthdx_prize">
+        <item>奖金240元</item>
+        <item>奖金240元</item>
+        <item>奖金240元</item>
+        <item>奖金240元</item>
+        <item>奖金240元</item>
+        <item>奖金240元</item>
+    </string-array>
+    <string-array name="ks_ethfx_nums">
+        <item>11*</item>
+        <item>22*</item>
+        <item>33*</item>
+        <item>44*</item>
+        <item>55*</item>
+        <item>66*</item>
+    </string-array>
+    <string-array name="ks_ethfx_prize">
+        <item>奖金15元</item>
+        <item>奖金15元</item>
+        <item>奖金15元</item>
+        <item>奖金15元</item>
+        <item>奖金15元</item>
+        <item>奖金15元</item>
+    </string-array>
+    <string-array name="ks_ethdx_th_nums">
+        <item>11</item>
+        <item>22</item>
+        <item>33</item>
+        <item>44</item>
+        <item>55</item>
+        <item>66</item>
+    </string-array>
+    <string-array name="ks_ethdx_dh_nums">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+</resources>

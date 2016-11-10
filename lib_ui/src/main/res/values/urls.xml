@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 首页广告 -->
+    <string name="ad_list">/user/advertisement.do</string>
+
+    <!-- 彩种信息列表 -->
+    <string name="getLotteryTypeList">/user/winTime.do</string>
+
+    <!-- 开奖记录 -->
+    <string name="getLotteryIssueList">/result/list.do</string>
+
+    <!-- 合买列表 -->
+    <!-- <string name="findGroupBuyPlan">/user/findGroupBuyPlan.do</string> -->
+    
+    <!-- 合买列表修改后的新接口，为了兼容老版本，以前的接口也可以用 -->
+    <string name="findGroupBuyPlanNew">/user/findGroupBuyPlanNew.do</string>
+    <!-- 上个接口和这个接口公用一个bean类,但是下面的接口比上面的接口bean多字段 -->
+	<string name="findSingleGroupBuyPlanNew">/user/findSingleGroupBuyPlan.do</string>
+    
+    <!-- 开奖公告 -->
+    <string name="getLotteryNotice">/result/index.do</string>
+    <string name="issue_detail">/result/detail.do</string>
+
+    <!-- 彩票资讯 -->
+    <string name="getNews">/user/information.do</string>
+    <string name="newsDetail">/user/showDetail.do</string>
+
+
+
+
+    <string name="orderDetail">/order/detail.do</string>
+
+
+
+    <!-- 积分兑换 -->
+    <string name="converPoint">/points/exchange.do</string>
+
+    <!-- 投注 -->
+    <string name="bet">/user/bet.do</string>
+
+    <!-- 遗漏 -->
+    <string name="yilou">/user/yilou.do</string>
+
+    <!-- 参与合买 -->
+    <string name="joinPlan">/user/joinPlan.do</string>
+
+
+    <string name="createOrder">/pay/createOrder.do</string>
+    <string name="createZlineOrder">/pay/createZlineOrder.do</string>
+    
+    
+    <string name="futureTermNo">/user/futureTermNo.do</string>
+    <string name="newBet">/user/newBet.do</string>
+    <string name="stopChase">/order/stopChase.do</string>
+    
+    <!-- 当前可提款的账户 -->
+    <string name="bankList">/bank/list.do</string>
+    <string name="drawMoney">/account/drawMoney.do</string>
+    <string name="deleteBank">/bank/delete.do</string>
+
+    <!-- 银行列表 -->
+    <string name="getBankList">/bank/bankList.do</string>
+    <string name="getProvinceList">/bank/pList.do</string>
+    <string name="getCityList">/bank/cList.do</string>
+    
+    <!-- 添加银行账户 -->
+    <string name="addBank">/bank/add.do</string>
+    
+
+    
+
+    
+    <!-- 走势图 -->
+    <string name="zst">/zst/index.do</string>
+    
+    <!-- 玩法说明接口 -->
+    <string name="pmList">/user/pmList.do</string>
+    
+     <!-- 我的定制-->
+    <string name="getMyCustom">/user/ctdisplay.do</string>
+    
+     <!-- 我的被定制-->
+    <string name="getMyCustomized">/user/ctdisplays.do</string>
+    
+     <!-- 新增定制-->
+    <string name="addCustom">/user/addct.do</string>
+
+    <!-- 修改定制-->
+    <string name="alterCustom">/user/alterct.do</string>
+
+    <!-- 取消定制-->
+    <string name="cancelCustom">/user/delct.do</string>
+
+    <!-- 通过memberId 获取等级 -->
+    <string name="getLevelByMemberId">/user/ctlevel.do</string>
+    
+    <!-- 支付宝快捷登录 -->
+    <string name="alipayLogin">/user/alipayLogin.do</string>
+
+    <string name="recharge">/demo/pay/index</string>
+
+    <!-- 聚宝支付创建订单 -->
+    <string name="createJubaoOrder">/pay/createJubaoOrder.do</string>
+
+
+
+    <!-- 用户相关的 -->
+
+    <!-- 登陆 -->
+    <string name="login">/user/login.do</string>
+    <!-- 注销 -->
+    <string name="logout">/user/loginout.do</string>
+    <!-- 注册 -->
+    <string name="register">/user/register.do</string>
+    <!-- 图形验证码 -->
+    <string name="imageCode">/image.do</string>
+    <!-- 忘记密码 -->
+    <string name="forgetPassword">/user/forgetPassword.do</string>
+
+    <!-- 修改账户信息 -->
+    <string name="updateUserinfo">/user/updateProfile.do</string>
+    <!-- 交易明细 -->
+    <string name="myTransactionList">/account/list.do</string>
+    <!-- 积分列表 -->
+    <string name="getCreditList">/points/list.do</string>
+    <!-- 我的投注信息 -->
+    <string name="getOrderList">/order/list.do</string>
+    <!-- 提款记录 -->
+    <string name="tkList">/account/tkList.do</string>
+
+    <!-- 待做 -->
+
+    <!-- 修改提款密码:第二次时修改密码  -->
+    <string name="updateTkPwd">/user/updateTkPassword.do</string>
+    <!-- 获取账户信息 -->
+    <string name="getAccountInfo">/account/balanceInfor.do</string>
+
+
+    <!-- 设置提款密码:第一次时用身份证号码设置提款密码 -->
+    <string name="addTkPwd">/user/addTkPassword.do</string>
+
+    <!-- 修改登录密码 -->
+    <string name="updateLoginPwd">/user/updatePassword.do</string>
+    <!-- 消息中心 -->
+    <string name="getNotice">/user/notice.do</string>
+
+    <!-- 待做 -->
+
+    <!-- 用户相关的 -->
+
+</resources>

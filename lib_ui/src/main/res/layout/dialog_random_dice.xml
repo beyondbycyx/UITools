@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipChildren="false" >
+
+        <FrameLayout
+            android:id="@+id/fl_anim_container"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center" >
+
+            <com.lian.lottery.views.DiceAnimImageView
+                android:id="@+id/iv_anim1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/dice_f1" />
+
+            <com.lian.lottery.views.DiceAnimImageView
+                android:id="@+id/iv_anim2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/dice_f1" />
+
+            <com.lian.lottery.views.DiceAnimImageView
+                android:id="@+id/iv_anim3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/dice_f1" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_result_container"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:clipChildren="false"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-20dp"
+                android:src="@drawable/dice_f1" />
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/dice_f1" />
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/dice_f1" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <!-- 轮播图 -->
+    <com.xhuabu.huangquan.lib_ui.view.InnerViewPager
+
+        android:id="@+id/innerviewpage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+    </com.xhuabu.huangquan.lib_ui.view.InnerViewPager>
+
+    <!-- 圆点 -->
+    <LinearLayout
+        android:id="@+id/point_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+
+    <!-- 关闭按钮 -->
+    <ImageButton
+        android:id="@+id/btn_close_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ad_close"
+        android:layout_gravity="right|top"
+        />
+
+</FrameLayout>

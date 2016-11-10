@@ -1,0 +1,253 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/ll_recharge"
+        style="@style/text_style_color1_16"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/selector_item_bg"
+        android:drawableLeft="@drawable/ic_transaction_list"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/selector_more1"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="账户充值"
+        android:textColor="@color/person_center_item_text_color" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="35dp"
+        android:background="@color/line_color" />
+
+    <FrameLayout
+        android:id="@+id/ll_order_all"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/selector_item_bg">
+
+        <TextView
+            android:id="@+id/tv_tk_record"
+            style="@style/text_style_color1_16"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/selector_item_bg"
+            android:drawableLeft="@drawable/ic_transaction_list"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/selector_more1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:text="购彩记录"
+            android:textColor="@color/person_center_item_text_color" />
+
+
+        <TextView
+            style="@style/text_style_color2_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="35dp"
+            android:text="查看全部购彩记录" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="35dp"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:id="@+id/ll_transaction_list"
+        style="@style/text_style_color1_16"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/selector_item_bg"
+        android:drawableLeft="@drawable/ic_transaction_list"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/selector_more1"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="交易明细"
+        android:textColor="@color/person_center_item_text_color" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/ll_order_zhongjiang"
+        style="@style/text_style_color1_16"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/selector_item_bg"
+        android:drawableLeft="@drawable/ic_prize_record"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/selector_more1"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="中奖订单"
+        android:textColor="@color/person_center_item_text_color" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="35dp"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/ll_tk_record"
+        style="@style/text_style_color1_16"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/selector_item_bg"
+        android:drawableLeft="@drawable/ic_tk_list"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/selector_more1"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="提款记录"
+        android:textColor="@color/person_center_item_text_color" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="35dp"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:id="@+id/ll_my_custom"
+        style="@style/text_style_color1_16"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/selector_item_bg"
+        android:drawableLeft="@drawable/ic_my_custom"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/selector_more1"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="我的定制"
+        android:textColor="@color/person_center_item_text_color"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="20dp"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:id="@+id/ll_password_manager"
+        style="@style/text_style_color1_16"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/selector_item_bg"
+        android:drawableLeft="@drawable/ic_pwd_manager"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/selector_more1"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="密码管理"
+        android:textColor="@color/person_center_item_text_color" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/ll_connnect_client"
+        style="@style/text_style_color1_16"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/selector_item_bg"
+        android:drawableLeft="@drawable/ic_connect_client"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/selector_more1"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="联系客服"
+        android:textColor="@color/person_center_item_text_color" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:background="@color/line_color" />
+
+
+    <FrameLayout
+        android:id="@+id/ll_more"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/selector_item_bg">
+
+        <TextView
+            style="@style/text_style_color1_16"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="@drawable/selector_item_bg"
+            android:drawableLeft="@drawable/ic_more"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/selector_more1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:text="更多功能"
+            android:textColor="@color/person_center_item_text_color" />
+
+
+        <TextView
+            android:id="@+id/iv_more_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/tip_number_bg"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="9sp" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="10dp"
+        android:background="@color/line_color" />
+
+</LinearLayout>

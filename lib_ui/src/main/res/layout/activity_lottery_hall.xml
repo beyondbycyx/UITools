@@ -1,0 +1,40 @@
+<com.lian.lottery.views.PullToRefreshScrollView2 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pull_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_ad_container"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:visibility="gone" >
+
+            <com.lian.lottery.views.AdView
+                android:id="@+id/ad_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/btn_close_ad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ad_close" />
+        </RelativeLayout>
+
+        <com.lian.lottery.views.FixedListView
+            android:id="@+id/lv_lottery_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</com.lian.lottery.views.PullToRefreshScrollView2>

@@ -1,0 +1,57 @@
+
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'com.neenbedankt.android-apt'
+
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            buildConfigField "boolean", "ISDEBUG", "true"
+
+        }
+    }
+
+    //阻止build的时候,lint报错
+    lintOptions {
+        abortOnError false
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    //单元测试
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.9.5'
+    testCompile 'org.robolectric:robolectric:3.0'
+    testCompile 'org.robolectric:robolectric-annotations:3.0'
+    //robolectric针对support-v4的shadows
+    testCompile 'org.robolectric:shadows-support-v4:3.0'
+    testCompile 'com.jayway.awaitility:awaitility:1.7.0'
+    //图片库
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:support-annotations:24.2.0'
+    //依赖注入
+    compile 'com.jakewharton:butterknife:8.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    //recycleview
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+}

@@ -1,0 +1,208 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="期数：" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_30"
+                        style="@style/text_style_color1_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="近30期" />
+
+                    <RadioButton
+                        android:id="@+id/rb_50"
+                        style="@style/text_style_color1_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="近50期" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_100"
+                        style="@style/text_style_color1_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="近100期" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_show_line_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="折线：" />
+
+            <RadioGroup
+                android:id="@+id/rg_show_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb_show_line"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="显示折线" />
+
+                <RadioButton
+                    android:id="@+id/rb_hide_line"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="隐藏折线" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="遗漏：" />
+
+            <RadioGroup
+                android:id="@+id/rg_yilou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb_show_yilou"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="显示遗漏" />
+
+                <RadioButton
+                    android:id="@+id/rb_hide_yilou"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="隐藏遗漏" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="统计：" />
+
+            <RadioGroup
+                android:id="@+id/rg_tongji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb_show_tongji"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="显示统计" />
+
+                <RadioButton
+                    android:id="@+id/rb_hide_tongji"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="隐藏统计" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/text_style_white_14"
+            android:layout_width="0dip"
+            android:layout_height="44dip"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn1"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/text_style_white_14"
+            android:layout_width="0dip"
+            android:layout_height="44dip"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn8"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

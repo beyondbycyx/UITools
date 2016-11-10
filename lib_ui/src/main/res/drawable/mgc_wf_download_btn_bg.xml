@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--<item android:id="@android:id/background">-->
+        <!--<shape>-->
+            <!--<stroke android:width="1.4dp"-->
+                <!--android:color="@color/light_blue"/>-->
+            <!--<corners android:radius="29dp" />-->
+
+            <!--<solid android:color="#66222222" />-->
+        <!--</shape>-->
+    <!--</item>-->
+    <!--<item android:id="@+id/progress_bar_bg">-->
+        <!--<clip>-->
+            <!--<shape>-->
+                <!--<stroke android:width="1.4dp"-->
+                    <!--android:color="@color/light_blue"/>-->
+                <!--<corners android:radius="29dp" />-->
+
+                <!--<solid android:color="#66222222" />-->
+            <!--</shape>-->
+        <!--</clip>-->
+    <!--</item>-->
+    <!--<item android:id="@android:id/progress">-->
+        <!--<clip>-->
+            <!--<shape>-->
+                <!--<stroke android:width="1.4dp"-->
+                    <!--android:color="@color/light_blue"/>-->
+                <!--<corners android:radius="29dp" />-->
+
+                <!--<solid android:color="@color/light_blue" />-->
+            <!--</shape>-->
+        <!--</clip>-->
+    <!--</item>-->
+    <!--<item android:id="@android:id/secondaryProgress">-->
+        <!--<clip>-->
+            <!--<shape>-->
+                <!--<stroke android:width="1.4dp"-->
+                    <!--android:color="@color/light_blue"/>-->
+                <!--<corners android:radius="29dp" />-->
+
+                <!--<solid android:color="#66222222" />-->
+            <!--</shape>-->
+        <!--</clip>-->
+    <!--</item>-->
+    <!--<item android:id="@+id/foreground">-->
+        <!--<clip>-->
+            <!--<shape>-->
+                <!--<corners android:radius="29dp" />-->
+
+                <!--<solid android:color="#55000000" />-->
+            <!--</shape>-->
+        <!--</clip>-->
+    <!--</item>-->
+
+</layer-list>

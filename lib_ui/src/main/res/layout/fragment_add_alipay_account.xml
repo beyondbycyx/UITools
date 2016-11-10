@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/panel_bg"
+        android:padding="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="支付宝账户" />
+
+            <EditText
+                android:id="@+id/et_alipay_name"
+                style="@style/text_style_color1_16"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:hint="请输入支付宝账号"
+                android:inputType="textEmailAddress"
+                android:maxLength="40" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="身份证号码" />
+
+            <EditText
+                android:id="@+id/et_id_card_no"
+                style="@style/text_style_color1_16"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                 android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:hint="请输入身份证号码"
+                android:inputType="textEmailAddress"
+                android:maxLength="18" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_btn1"
+        android:text="确认添加"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

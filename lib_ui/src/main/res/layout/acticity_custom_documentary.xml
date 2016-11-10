@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/ll_root_content_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="7dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="2dp"
+                    android:text="用户名:" />
+
+                <TextView
+                    android:id="@+id/tv_creator"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="test"
+                    android:textColor="@color/red" />
+
+                <TextView
+                    style="@style/text_style_color1_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="战绩:" />
+
+                <LinearLayout
+                    android:id="@+id/ll_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="25dp"
+                    android:orientation="horizontal" >
+                    
+                    <TextView 
+                        style="@style/text_style_color1_14"
+                        android:id="@+id/tv_no_level"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="无"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/line_color" />
+
+            <LinearLayout
+                android:id="@+id/ll_custom_documentary_container"
+                android:animateLayoutChanges="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_documentary_setting_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="9dp"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp" >
+
+                    <TextView
+                        style="@style/text_style_color1_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="跟单设置:" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/iv_more1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                         android:background="@drawable/selector_ic_down" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_documentary_setting_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_buy_limit_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp" >
+
+                    <TextView
+                        style="@style/text_style_color1_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="认购限制:" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/iv_more2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector_ic_down" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_buy_limit_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_money_limit_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="9dp"
+                     android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp" >
+
+                    <TextView
+                        style="@style/text_style_color1_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="认购金额限制:"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/iv_more3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector_ic_down" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_money_limit_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color2" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bottom_color"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_cancel"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_btn2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_clear"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:drawablePadding="4dp"
+                android:textColor="@color/text_color_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/tv_betting_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_btn1"
+            android:text="定制"
+            android:textColor="@color/btn_text_color1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

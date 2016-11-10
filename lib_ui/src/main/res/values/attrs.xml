@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 下拉刷新控件的属性 -->
+    <declare-styleable name="PullToRefresh">
+
+        <!-- A drawable to use as the background of the Refreshable View -->
+        <attr name="ptrRefreshableViewBackground" format="reference|color" />
+
+        <!-- A drawable to use as the background of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderBackground" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextColor" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views Sub Header -->
+        <attr name="ptrHeaderSubTextColor" format="reference|color" />
+
+        <!-- Mode of Pull-to-Refresh that should be used -->
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0" />
+            <flag name="pullFromStart" value="0x1" />
+            <flag name="pullFromEnd" value="0x2" />
+            <flag name="both" value="0x3" />
+            <flag name="manualOnly" value="0x4" />
+
+            <!-- These last two are depreacted -->
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+        </attr>
+
+        <!-- Whether the Indicator overlay(s) should be used -->
+        <attr name="ptrShowIndicator" format="reference|boolean" />
+
+        <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
+        <attr name="ptrDrawable" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableStart" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableEnd" format="reference" />
+
+        <!-- Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. -->
+        <attr name="ptrOverScroll" format="reference|boolean" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextAppearance" format="reference" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header -->
+        <attr name="ptrSubHeaderTextAppearance" format="reference" />
+
+        <!-- Style of Animation should be used displayed when pulling. -->
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0" />
+            <flag name="flip" value="0x1" />
+        </attr>
+
+        <!-- Whether the user can scroll while the View is Refreshing -->
+        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
+        	able to scroll while refreshing, and behaves better. It acheives this by adding
+        	Header and/or Footer Views to the ListView.
+        -->
+        <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether the Drawable should be continually rotated as you pull. This only
+        	takes effect when using the 'Rotate' Animation Style.
+        -->
+        <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
+
+        <!-- BELOW HERE ARE DEPRECEATED. DO NOT USE. -->
+        <attr name="ptrAdapterViewBackground" format="reference|color" />
+        <attr name="ptrDrawableTop" format="reference" />
+        <attr name="ptrDrawableBottom" format="reference" />
+    </declare-styleable>
+
+    <!-- 小球面板的属性 -->
+    <declare-styleable name="BallPanel">
+
+        <!-- 小球的个数 -->
+        <attr name="ballCount" format="integer"></attr>
+
+        <!-- 最多能选择的小球个数 -->
+        <attr name="maxSelectBallCount" format="integer"></attr>
+
+        <!-- 选择小球超过最大球个数的提示 -->
+        <attr name="maxOverTipMsg" format="reference|string"></attr>
+
+        <!-- 小球开始计数的数字 -->
+        <attr name="startNumber" format="integer"></attr>
+
+        <!-- 是否是单选，如果是单选，表示只能选择一个球 -->
+        <attr name="isSingleSelect" format="boolean"></attr>
+
+        <!-- 是否显示遗漏数据 -->
+        <attr name="withOmit" format="boolean"></attr>
+
+        <!-- 小球的背景图 -->
+        <attr name="ballBackground" format="reference"></attr>
+
+        <!-- 小球弹出框的背景 -->
+        <attr name="ballPopBackground" format="reference|color"></attr>
+
+        <!-- 球的颜色 -->
+        <attr name="ballTextColor" format="reference|color"></attr>
+
+        <!-- 小球的宽度 -->
+        <attr name="ballWidth" format="dimension|reference"></attr>
+        <attr name="isClickShowPop" format="boolean"></attr>
+        <attr name="isRandomShowPop" format="boolean"></attr>
+
+        <!-- 遗漏文字的颜色 -->
+        <attr name="omitTextColor" format="reference|color"></attr>
+        <attr name="omitMaxTextColor" format="reference|color"></attr>
+        
+        <!-- K3选球号码的属性，是否显示label -->
+        <attr name="isShowBallLabel" format="boolean"></attr>
+        
+        
+
+        <!-- 走势图中小球面板的属性 -->
+        <attr name="isFixedWidth" format="boolean"></attr>
+    </declare-styleable>
+
+    <!-- 自定义圆形进度条的属性 -->
+    <declare-styleable name="CircleProgressBarStyle">
+
+        <!-- 半径 -->
+        <attr name="radius" format="dimension|reference"></attr>
+        <!-- 进度条的颜色 -->
+        <attr name="progressColor" format="reference|color"></attr>
+        <!-- 第二进度条的颜色 -->
+        <attr name="progressSecondColor" format="reference|color"></attr>
+        <attr name="progressBackgroundColor" format="reference|color"></attr>
+        <attr name="progressBackgroundBoundColor" format="reference|color"></attr>
+        <attr name="progressSize" format="dimension|reference"></attr>
+    </declare-styleable>
+
+    <!-- 走势图view的属性 -->
+    <declare-styleable name="TrendChartView">
+
+        <!-- 走势图中数字的个数 -->
+        <attr name="ballNumber" format="integer"></attr>
+
+        <!-- 走势图中小球的开始位置 -->
+        <attr name="ballStartNumber" format="integer"></attr>
+
+        <!-- 单元格的大小 -->
+        <attr name="cellWidth" format="dimension|reference"></attr>
+        <attr name="cellHeight" format="dimension|reference"></attr>
+
+        <!-- 左边彩期的宽度 -->
+        <attr name="issueWidth" format="dimension|reference"></attr>
+
+        <!-- 文字大小 -->
+        <attr name="textSize" format="dimension|reference"></attr>
+
+        <!-- 单元格的宽度是否均分宽度 -->
+        <attr name="isCellSizeFixedWidth" format="boolean"></attr>
+
+        <!-- 小球和连线的颜色 -->
+        <attr name="ballColor" format="color|reference"></attr>
+
+        <!-- 是否绘制小球的连线 -->
+        <attr name="isShowBallLine" format="boolean"></attr>
+    </declare-styleable>
+
+    <!-- LockPatternView class attributes -->
+    <declare-styleable name="LockPatternView">
+        <!--
+             Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height"
+        -->
+        <attr name="aspect">
+            <enum name="square" value="0" />
+            <enum name="lockWidth" value="1" />
+            <enum name="lockHeight" value="2" />
+        </attr>
+        
+        <attr name="line" format="color" />
+        <attr name="btnNormal" format="reference" />
+        <attr name="btnTouched" format="reference" />
+        
+        <attr name="circleNormal" format="reference" />
+        <attr name="circleGreen" format="reference" />
+        <attr name="circleRed" format="reference" />
+        
+        <attr name="arrowGreenUp" format="reference" />
+        <attr name="arrowRedUp" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension"/>
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference"/>
+        <attr name="shadow_right" format="reference"/>
+        <attr name="shadow_bottom" format="reference"/>
+    </declare-styleable>
+
+    <attr name="SwipeBackLayoutStyle" format="reference"/>
+
+</resources>

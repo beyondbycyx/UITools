@@ -1,0 +1,197 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="彩　　种" />
+
+            <TextView
+                android:id="@+id/tv_lottery_name"
+                style="@style/text_style_color1_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="开始期数" />
+
+            <TextView
+                android:id="@+id/tv_issue"
+                style="@style/text_style_color1_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="追　　号" />
+
+            <TextView
+                android:id="@+id/tv_zhuihao"
+                style="@style/text_style_color1_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="倍　　数" />
+
+            <TextView
+                android:id="@+id/tv_beishu"
+                style="@style/text_style_color1_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="总  注  数" />
+
+            <TextView
+                android:id="@+id/tv_bet_count"
+                style="@style/text_style_color1_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="总　　共" />
+
+            <TextView
+                android:id="@+id/tv_totel_money"
+                style="@style/text_style_color1_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_stop_case"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="停止条件" />
+
+            <TextView
+                android:id="@+id/tv_stop_case"
+                style="@style/text_style_color1_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/text_style_white_16"
+            android:layout_width="0dip"
+            android:layout_height="44dip"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn1"
+            android:text="确定购买" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/text_style_white_16"
+            android:layout_width="0dip"
+            android:layout_height="44dip"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn8"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

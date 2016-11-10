@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingTop="6dp" >
+
+        <ImageView
+            android:id="@+id/iv_is_no_limit_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_item_radio_button" />
+
+        <TextView
+            style="@style/text_style_color1_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="无限制" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingTop="6dp" >
+
+        <ImageView
+            android:id="@+id/iv_is_interval_limit_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_item_radio_button" />
+
+        <TextView
+            style="@style/text_style_color1_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="限制认购" />
+
+        <com.lian.lottery.views.MyEditTextView
+            style="@style/text_style_color1_12"
+            android:id="@+id/et_from_money"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/selector_input_bg2"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColor="@color/red" />
+
+        <TextView
+            style="@style/text_style_color1_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元到" />
+
+        <com.lian.lottery.views.MyEditTextView
+            style="@style/text_style_color1_12"
+            android:id="@+id/et_to_money"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/selector_input_bg2"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColor="@color/red" />
+
+        <TextView
+            style="@style/text_style_color1_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元的方案" />
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/lottery_type_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/ball_tip_label" />
+
+        <com.lian.lottery.views.BallPanelView2
+            android:id="@+id/bpv_ethfx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="13dp"
+            xmlns:bpv="http://schemas.android.com/apk/res-auto"
+            bpv:ballCount="6"
+            bpv:ballWidth="90dp"
+            bpv:isShowBallLabel="false"
+            bpv:startNumber="1"
+            bpv:withOmit="true"
+            bpv:omitTextColor="@color/white"
+        	bpv:omitMaxTextColor="@color/red" />
+    </LinearLayout>
+
+</LinearLayout>

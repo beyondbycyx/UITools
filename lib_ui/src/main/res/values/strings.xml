@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">八度吧</string>
+    <string name="companny_name">八度吧</string>
+    <string name="copyright">2013-2020 © 八度吧 粤ICP备16023183号-1 </string>
+    <string name="exit">退出</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="decimal_button_text">,</string>
+    <string name="clear_button_text">Clear</string>
+    <string name="minus_button_text">-</string>
+    <string name="user_center">用户中心</string>
+    <string name="update">修改</string>
+    <string name="shake_label">摇一摇机选</string>
+    <string name="ww">万位</string>
+    <string name="qw">千位</string>
+    <string name="bw">百位</string>
+    <string name="sw">十位</string>
+    <string name="gw">个位</string>
+    <string name="omit">遗漏</string>
+    <string name="chonghao">重号</string>
+    <string name="danhao">单号</string>
+    <string name="number">选号</string>
+    <string name="zsx1gh">至少选&lt;font color=\"#d52a54\">1&lt;/font>个号</string>
+    <string name="zsx2gh">至少选&lt;font color=\"#d52a54\">2&lt;/font>个号</string>
+    <string name="zsx3gh">至少选&lt;font color=\"#d52a54\">3&lt;/font>个号</string>
+    <string name="zsx4gh">至少选&lt;font color=\"#d52a54\">4&lt;/font>个号</string>
+    <string name="zsx5gh">至少选&lt;font color=\"#d52a54\">5&lt;/font>个号</string>
+    <string name="zsx6gh">至少选&lt;font color=\"#d52a54\">6&lt;/font>个号</string>
+    <string name="zsx7gh">至少选&lt;font color=\"#d52a54\">7&lt;/font>个号</string>
+    <string name="zsx8gh">至少选&lt;font color=\"#d52a54\">8&lt;/font>个号</string>
+    <string name="zsx9gh">至少选&lt;font color=\"#d52a54\">9&lt;/font>个号</string>
+    <string name="zsx10gh">至少选&lt;font color=\"#d52a54\">10&lt;/font>个号</string>
+    <string name="mwzsx1gh">每位至少选&lt;font color=\"#d52a54\">1&lt;/font>个号</string>
+    <string name="zsxygchhygdh">至少选&lt;font color=\"#d52a54\">1&lt;/font>个重号和&lt;font color=\"#d52a54\">1&lt;/font>个单号</string>
+    <string name="ryywzsx1gh">任意一位至少选&lt;font color=\"#d52a54\">1&lt;/font>个号</string>
+    <string name="r2wzsgx1gh">任意两位上至少个选&lt;font color=\"#d52a54\">1&lt;/font>个号</string>
+    <string name="zsxz6ghq1glq">至少选择&lt;font color=\"#d52a54\">6&lt;/font>个红球&lt;font color=\"#0d59c0\">1&lt;/font>个蓝球</string>
+    <string name="zsxz5ghq2glq">至少选择&lt;font color=\"#d52a54\">5&lt;/font>个红球&lt;font color=\"#0d59c0\">2&lt;/font>个蓝球</string>
+    <string name="ssq_dm_hq">&lt;font color=\"#d52a54\">胆码区-红球&lt;/font>　至少选择&lt;font color=\"#d52a54\">1&lt;/font>个，最多&lt;font color=\"#d52a54\">5&lt;/font>个</string>
+    <string name="ssq_tm_hq">&lt;font color=\"#d52a54\">拖码区-红球&lt;/font>　至少选择&lt;font color=\"#d52a54\">2&lt;/font>个</string>
+    <string name="ssq_tm_lq">&lt;font color=\"#0d59c0\">拖码区-蓝球&lt;/font>　至少选择&lt;font color=\"#0d59c0\">1&lt;/font>个</string>
+
+
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+
+
+    <string name="login_label">登录</string>
+
+
+    <!-- 3D玩法提示 -->
+    <string name="fcsd_zx_label">按位猜中全部&lt;font color=\"#d52a54\">3&lt;/font>个号，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="fcsd_zxhz_label">按位猜中全部&lt;font color=\"#d52a54\">3&lt;/font>个号码之和，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="fcsd_zshz_label">猜中开奖号数字之和，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元(开奖号码必须有2个数字相同)</string>
+    <string name="fcsd_zs_label">猜中开奖号，顺序不限，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="fcsd_zl_label">猜中开奖号，顺序不限，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="fcsd_zlhz_label">猜中开奖号数字之和，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元(开奖号没重复的数字)</string>
+
+    <!-- 排列3玩法提示 -->
+    <string name="pls_zx_label">按位猜中全部&lt;font color=\"#d52a54\">3&lt;/font>个号，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="pls_zs_label">猜中开奖号，顺序不限，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="pls_zl_label">猜中开奖号，顺序不限，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="pls_zshz_label">猜中开奖号数字之和，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元(开奖号码必须有2个数字相同)</string>
+    <string name="pls_zxhz_label">猜中开奖号码之和，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="pls_zlhz_label">猜中开奖号数字之和，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元(开奖号没重复的数字)</string>
+
+    <!-- 排列5玩法提示 -->
+    <string name="plw_zx_label">按位猜中全部&lt;font color=\"#d52a54\">5&lt;/font>个号，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+
+
+    <!-- 江西时时彩玩法提示 -->
+    <string name="jxssc_yxzx_label">猜中开奖号码最后&lt;font color=\"#d52a54\">1&lt;/font>位，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_exzx_label">按位猜中开奖号码后&lt;font color=\"#d52a54\">2&lt;/font>位，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_exzux_label">猜中开奖后&lt;font color=\"#d52a54\">2&lt;/font>位，顺序不限，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_exzxhz_label">所选和值与开奖号码后两位和值一致即中奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_sxzx_label">按位猜中号码后&lt;font color=\"#d52a54\">3&lt;/font>位，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_sxzxhz_label">所选和值与开奖号码后&lt;font color=\"#d52a54\">3&lt;/font>位和值一致即中奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_sxzs_label">猜中开奖后&lt;font color=\"#d52a54\">3&lt;/font>位，顺序不限，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_sxzl_label">猜中开奖后&lt;font color=\"#d52a54\">3&lt;/font>位，顺序不限，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_sxzlhz_label">猜中开奖后&lt;font color=\"#d52a54\">3&lt;/font>位相加的和值，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_sixzx_label">按位猜中开奖号码后&lt;font color=\"#d52a54\">4&lt;/font>位，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_wxzx_label">按位猜中全部&lt;font color=\"#d52a54\">5&lt;/font>个号，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_wxtx_label">按位猜中全部&lt;font color=\"#d52a54\">5&lt;/font>个号，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_dxds_label">猜中开奖最后&lt;font color=\"#d52a54\">2&lt;/font>位的大小单双，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_ry_label">猜中开奖号码的对应&lt;font color=\"#d52a54\">1&lt;/font>位，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="jxssc_re_label">猜中开奖号码的对应&lt;font color=\"#d52a54\">2&lt;/font>位，奖金&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+
+
+    <!-- 江西11选5玩法提示 -->
+    <string name="s11x5_re_label">猜中开奖的任意&lt;font color=\"#d52a54\">2&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_rs_label">猜中开奖的任意&lt;font color=\"#d52a54\">3&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_rsi_label">猜中开奖的任意&lt;font color=\"#d52a54\">4&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_rw_label">猜中开奖的全部&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_rl_label">猜中开奖的全部&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_rq_label">猜中开奖的全部&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_rb_label">猜中开奖的全部&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_qy_label">猜中开奖的第1位即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_qezx_label">与开奖前&lt;font color=\"#d52a54\">2&lt;/font>位一一对应即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_qezux_label">猜中开奖前&lt;font color=\"#d52a54\">2&lt;/font>位顺序不限即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_qszx_label">与开奖前&lt;font color=\"#d52a54\">3&lt;/font>位一一对应即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="s11x5_qszux_label">猜中开奖前&lt;font color=\"#d52a54\">3&lt;/font>位顺序不限即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+
+    <!-- 群英会玩法 -->
+    <string name="sdqyh_r1_label">中任意&lt;font color=\"#d52a54\">1&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_r2_label">中任意&lt;font color=\"#d52a54\">2&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_r3_label">中任意&lt;font color=\"#d52a54\">3&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元;中任意2位奖&lt;font color=\"#d52a54\">5&lt;/font>元</string>
+    <string name="sdqyh_r4_label">中任意&lt;font color=\"#d52a54\">4&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元;中任意3位奖&lt;font color=\"#d52a54\">30&lt;/font>元</string>
+    <string name="sdqyh_r5_label">中&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元;中任意4位奖&lt;font color=\"#d52a54\">150&lt;/font>元;中任意3位奖&lt;font color=\"#d52a54\">10&lt;/font>元</string>
+    <string name="sdqyh_r6_label">中全部&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_r7_label">中全部&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_r8_label">中全部&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_r9_label">中全部&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_r10_label">中全部&lt;font color=\"#d52a54\">5&lt;/font>个号即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+
+    <string name="sdqyh_w2_label">猜中前&lt;font color=\"#d52a54\">2&lt;/font>位,顺序不限,即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_w3_label">猜中前&lt;font color=\"#d52a54\">3&lt;/font>位,顺序不限,即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_w4_label">猜中前&lt;font color=\"#d52a54\">4&lt;/font>位,顺序不限,即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_w5_label">猜中前&lt;font color=\"#d52a54\">5&lt;/font>位,顺序不限,即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+
+    <string name="sdqyh_s1_label">猜中开奖的第&lt;font color=\"#d52a54\">1&lt;/font>位即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_s2_label">猜中开奖的前&lt;font color=\"#d52a54\">2&lt;/font>位即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+    <string name="sdqyh_s3_label">猜中开奖的前&lt;font color=\"#d52a54\">3&lt;/font>位即奖&lt;font color=\"#d52a54\">%1$s&lt;/font>元</string>
+
+    <!-- 快3 -->
+    <string name="k3_hz_label">猜开奖号码相加的和</string>
+    <string name="k3_sthtx_label">开奖号码的3个号相同,即奖%1$s元</string>
+    <string name="k3_sthdx_label">选号与开奖号码一致即中奖%1$s元</string>
+    <string name="k3_ethfx_label">猜中开奖2个指定的相同号码,即中%1$s元</string>
+    <string name="k3_ethdx_label">猜中同号和不同号,即中%1$s元</string>
+    <string name="k3_sbth_label">猜中开奖3个不同号码,即中%1$s元</string>
+    <string name="k3_ebth_label">猜中开奖2个不同号码,即中%1$s元</string>
+    <string name="k3_slhtx_label">开出任意三连号,即中%1$s元</string>
+
+    <string name="loading_issue">正在获取彩期...</string>
+
+    <string name="net_error">网络请求失败，请检查网络连接</string>
+    <string name="load_fail_refresh">加载失败,下拉可手动刷新</string>
+
+    <!--<string name="loading">正在获取</string>-->
+    <string name="loading_fail">获取失败</string>
+
+    <!-- 分享 -->
+    <string name="share_content">我正在使用%s客户端买彩票，方便快捷又好用；随时投注，时时有中大奖的机会哦，下载地址：</string>
+    <string name="share_content2">我正在使用%s客户端买彩票，方便快捷又好用；随时投注，时时有中大奖的机会哦，点我下载</string>
+    <string name="hemai_detail_url">http://www.8du88.com/hm/vp_</string>
+
+    <string name="qq">4008879266</string>
+    <string name="hot_line_number">4008879266</string>
+    <string name="web_url">http://www.badu8.com/</string>
+    <string name="web_url2">http://www.badu8.com/</string>
+    <string name="mobile_download_url">http://www.8du88.com/phone.html</string>
+
+
+    <string name="lottery_hall">购彩大厅</string>
+    <string name="hemai_hall">合买跟单</string>
+    <string name="lottery_notice">开奖公告</string>
+    <string name="lottery_news">彩票资讯</string>
+    <string name="my_center">用户中心</string>
+
+    <string name="loading">加载中...</string>
+    <string name="sum">和值</string>
+
+    <string name="net_notice">资讯头条</string>
+    <string name="net_activity">彩票资讯</string>
+    <string name="net_skill">专家推荐</string>
+
+    <string name="confirm_exit">确认退出</string>
+    <string name="confirm_logout">确认退出登录吗？</string>
+
+    <string name="tip_perfect_userinfo_for_recharge">为了保证您的资金安全，请先完善身份信息再充值!</string>
+
+    <string name="available_balance">可用余额(元)</string>
+    <string name="freeze_maney">冻结金额(元)</string>
+    <string name="loading_user_info">正在获取个人信息...</string>
+
+    <string name="no_login">未登录</string>
+
+    <string name="yuan">元</string>
+
+    <string name="user_register">用户注册</string>
+    <string name="touzhuxieyi">《%s投注协议》</string>
+</resources>

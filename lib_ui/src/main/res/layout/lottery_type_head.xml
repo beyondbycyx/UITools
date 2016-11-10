@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_head_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_shake_betting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shake_normal_bg"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_shake_label"
+                style="@style/text_style_color1_14"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="3dp"
+                android:text="@string/shake_label" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="1dip"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_select_tip_label"
+            style="@style/text_style_color1_14"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_play_type_label"
+        style="@style/text_style_color1_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" />
+
+</LinearLayout>

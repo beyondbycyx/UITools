@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="8dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/iv_is_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_check_box" />
+
+            <TextView
+                android:id="@+id/tv_issue"
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="201404044" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/btn_reduce"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_btn_hemai_reduce" />
+
+                <EditText
+                    android:id="@+id/et_buy_multi"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="40sp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/input_bg"
+                    android:gravity="center"
+                    android:hint="1"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:singleLine="true"
+                    android:textColorHint="@color/text_color_1" />
+
+                <ImageView
+                    android:id="@+id/btn_add"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_btn_hemai_add" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_money"
+            style="@style/text_style_color1_14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="200元"
+            android:textColor="@color/orange" />
+    </LinearLayout>
+
+     <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color" />
+    
+</LinearLayout>

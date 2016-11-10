@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_root_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:animateLayoutChanges="true"
+        android:layout_marginTop="9dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingLeft="22dp" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="彩种" />
+
+            <Spinner 
+                style="@style/text_style_color1_14"
+                android:id="@+id/spinner_lottery_name"
+                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:background="@drawable/selector_input_bg2"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="6dp" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="每个方案认购" />
+
+            <com.lian.lottery.views.MyEditTextView
+                android:id="@+id/et_each_money"
+                style="@style/text_style_color1_12"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/selector_input_bg2"
+                android:gravity="center"
+                android:hint="1"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="@color/red"
+                android:textColorHint="@color/red"/>
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="元" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="6dp" >
+
+            <ImageView
+                android:id="@+id/iv_is_balance_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_check_box2" />
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="当用户余额小于" />  
+
+            <com.lian.lottery.views.MyEditTextView
+                android:id="@+id/et_account_balance_limit"
+                style="@style/text_style_color1_12"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/selector_input_bg2"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="@color/red" />
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="元则不自动跟单" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

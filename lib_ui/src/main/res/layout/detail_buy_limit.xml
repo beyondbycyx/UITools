@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:text="每期可能发起多个方案，系统根据发单时间依次认购" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_all_scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="6dp" >
+
+            <ImageView
+                android:id="@+id/iv_is_all_scheme_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_radio_button" />
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="认购所有方案" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="6dp" >
+
+            <ImageView
+                android:id="@+id/iv_is_issue_limit_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_radio_button" />
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="按彩期限制" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="6dp" >
+
+            <ImageView
+                android:id="@+id/iv_is_time_limit_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_item_radio_button" />
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="按时间限制(一周:周一至周日)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="6dp" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最多认购" />
+
+            <com.lian.lottery.views.MyEditTextView
+                android:id="@+id/et_most_schema"
+                style="@style/text_style_color1_12"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/selector_input_bg2"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="@color/red"
+                android:textColorHint="@color/red" />
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个方案" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

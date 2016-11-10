@@ -1,0 +1,285 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/sliding_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_bottom_bar_container">
+
+        <!-- 内容页 -->
+
+        <RelativeLayout
+            android:id="@+id/rl_content_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <!-- 顶部倒计时 -->
+
+            <FrameLayout
+                android:id="@+id/ll_top_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:id="@+id/tv_timer"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="14sp" />
+            </FrameLayout>
+
+            <!-- 选号和往前投注的滑动页 -->
+
+            <com.lian.lottery.views.SlidingView
+                android:id="@+id/sliding_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/ll_selected_number_container"
+                android:layout_below="@+id/ll_top_container">
+
+                <LinearLayout
+                    android:id="@+id/ll_behind_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_issue_line"
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:background="@color/line_color" />
+
+                        <LinearLayout
+                            android:id="@+id/ll_issue_label_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dip"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/tv_prize_pool_label"
+                                style="@style/text_style_color1_14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="6dp" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="1px"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <ViewAnimator
+                            android:id="@+id/va_lottery_issue_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="160dp"
+                                android:gravity="center">
+
+                                <ProgressBar
+                                    style="?android:attr/progressBarStyleSmall"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/tv_loading"
+                                    style="@style/text_style_color2_14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="正在加载往期开奖列表..." />
+                            </LinearLayout>
+
+                            <com.lian.lottery.views.FixedListView
+                                android:id="@+id/lv_lottery_issue"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:cacheColorHint="@android:color/transparent"
+                                android:divider="@android:color/transparent" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="15dp"
+                                    android:src="@drawable/ic_net_error" />
+
+                                <Button
+                                    android:id="@+id/btn_reload"
+                                    style="@style/text_style_color2_14"
+                                    android:layout_width="150dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/selector_btn7"
+                                    android:text="点击刷新" />
+                            </LinearLayout>
+                            <!--
+                                 <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="160dp"
+                                android:adjustViewBounds="false"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_net_error" />
+                            -->
+                        </ViewAnimator>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 选号界面 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:id="@+id/ll_above_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"/>
+
+                    <ImageView
+                        android:id="@+id/iv_betting_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:background="@color/line_color" />
+
+                    <FrameLayout
+                        android:id="@+id/ll_slide_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/ic_slide_bg">
+
+                        <ImageView
+                            android:id="@+id/iv_slide"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="1dp"
+                            android:src="@drawable/ic_slide" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </com.lian.lottery.views.SlidingView>
+
+            <LinearLayout
+                android:id="@+id/ll_selected_number_container"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/ll_selected_number_container_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/line_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:id="@+id/tv_selected_number"
+                        style="@style/text_style_color1_14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:text="222" />
+
+                    <TextView
+                        android:id="@+id/tv_betting_count"
+                        style="@style/text_style_color1_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="1注2元" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- 侧滑菜单 -->
+
+        <fragment
+            android:id="@+id/fragment_menu"
+            android:name="com.lian.lottery.activity.betting.base.BettingMoreMenuFragment"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end" />
+    </android.support.v4.widget.DrawerLayout>
+
+    <!-- 底部 -->
+
+    <RelativeLayout
+        android:id="@+id/ll_bottom_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bottom_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ll_cancel"
+            style="@style/text_style_white_18"
+            android:layout_width="80dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/selector_btn2"
+            android:text="清空" />
+
+        <Button
+            android:id="@+id/btn_random"
+            style="@style/text_style_white_18"
+            android:layout_width="80dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/selector_btn2"
+            android:text="机选" />
+
+        <Button
+            android:id="@+id/btn_betting"
+            android:layout_width="80dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/selector_btn1"
+            android:text="投注"
+            android:textColor="@color/btn_text_color1"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

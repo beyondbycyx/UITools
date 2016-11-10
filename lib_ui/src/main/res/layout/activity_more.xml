@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/ll_notice"
+            android:layout_width="match_parent"
+            android:layout_height="43dp">
+
+
+            <TextView
+                style="@style/text_style_color1_16"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="@drawable/selector_item_bg"
+                android:drawableLeft="@drawable/ic_notice"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/selector_more1"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="活动公告" />
+
+            <TextView
+                android:id="@+id/iv_new_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/tip_number_bg"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="9sp" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="41dp"
+            android:background="@color/line_color" />
+
+
+        <TextView
+            android:id="@+id/ll_share"
+            style="@style/text_style_color1_16"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:visibility="gone"
+            android:background="@drawable/selector_item_bg"
+            android:drawableLeft="@drawable/ic_share"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/selector_more1"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="分享推荐" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="41dp"
+            android:visibility="gone"
+            android:background="@color/line_color" />
+
+
+        <TextView
+            android:id="@+id/ll_help"
+            style="@style/text_style_color1_16"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="@drawable/selector_item_bg"
+            android:drawableLeft="@drawable/ic_more_help"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/selector_more1"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:visibility="gone"
+            android:text="使用帮助" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="41dp"
+            android:visibility="gone"
+            android:background="@color/line_color" />
+
+        <TextView
+            android:id="@+id/ll_setting"
+            style="@style/text_style_color1_16"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="@drawable/selector_item_bg"
+            android:drawableLeft="@drawable/ic_setting"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/selector_more1"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="设置" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="41dp"
+            android:background="@color/line_color" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp">
+
+            <TextView
+                android:id="@+id/ll_check_update"
+                style="@style/text_style_color1_16"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="@drawable/selector_item_bg"
+                android:drawableLeft="@drawable/ic_chech_upda"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/selector_more1"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="检测升级" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                style="@style/text_style_color2_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="35dp" />
+        </FrameLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="41dp"
+            android:background="@color/line_color" />
+
+
+        <TextView
+            android:id="@+id/ll_about"
+            style="@style/text_style_color1_16"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:background="@drawable/selector_item_bg"
+            android:drawableLeft="@drawable/ic_about"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/selector_more1"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="关于我们" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color" />
+
+
+    </LinearLayout>
+
+</ScrollView>

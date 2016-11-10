@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/text_style_color1_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:drawableLeft="@drawable/ic_handle_order"
+        android:drawablePadding="5dp"
+        android:text="用户随意订制个人喜好置顶彩种" />
+
+     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.8dip"
+        android:background="@color/line_color" />
+     
+    <com.mobeta.android.dslv.DragSortListView
+        xmlns:dslv="http://schemas.android.com/apk-auto"
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1px"
+        dslv:collapsed_height="2dp"
+        dslv:drag_enabled="true"
+        dslv:drag_scroll_start="0.33"
+        dslv:float_alpha="0.6"
+        dslv:max_drag_scroll_speed="0.5"
+        dslv:slide_shuffle_speed="0.5"
+        dslv:track_drag_sort="false"
+        dslv:use_default_controller="false" />
+
+</LinearLayout>

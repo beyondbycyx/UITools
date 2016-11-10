@@ -1,0 +1,208 @@
+<com.lian.lottery.views.MyViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vf_container"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <LinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_item_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- 彩种图标 -->
+        <ImageView
+            android:id="@+id/iv_lottery"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <!-- 彩种名称-->
+                        <TextView
+                            android:id="@+id/tv_name"
+                            style="@style/text_style_color1_18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <!--是否"今日开奖"-->
+                        <TextView
+                            android:id="@+id/tv_is_today"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="今日开奖"
+                            android:textColor="#ffff9011"
+                            android:textSize="12sp"
+                            android:visibility="gone" />
+
+                        <!-- 是否"加奖中"-->
+                        <TextView
+                            android:id="@+id/tv_add_aword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/tip_label_bg"
+                            android:padding="2dp"
+                            android:text="加奖中"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <!-- 彩种描述-->
+                    <TextView
+                        android:id="@+id/tv_desc"
+                        style="@style/text_style_color2_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:singleLine="true" />
+
+                    <!-- 彩种倒计时-->
+                    <TextView
+                        android:id="@+id/tv_issue"
+                        style="@style/text_style_color2_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="sdfsd" />
+                </LinearLayout>
+
+                <!-- 向右的小箭头-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/more1" />
+            </LinearLayout>
+
+            <!-- 灰色的线条 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lottery_hall_item_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <!-- 彩种的名称:彩种的描述-->
+        <TextView
+            android:id="@+id/tv_desc2"
+            style="@style/text_style_white_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center_vertical">
+
+            <FrameLayout
+                android:id="@+id/ll_random_single"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_title_btn_bg">
+
+
+                <TextView
+
+                    style="@style/text_style_white_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/ic_random1"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:text="机选1注" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <FrameLayout
+                android:id="@+id/ll_random_5"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_title_btn_bg">
+
+
+                <TextView
+
+                    style="@style/text_style_white_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/ic_random5"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:text="机选5注" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <FrameLayout
+                android:id="@+id/ll_hand_select"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_title_btn_bg">
+
+
+                <TextView
+                    style="@style/text_style_white_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/ic_select"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:text="自选号码" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.lian.lottery.views.MyViewPager>

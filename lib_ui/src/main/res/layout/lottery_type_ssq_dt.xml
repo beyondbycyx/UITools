@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bpv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_label1"
+        style="@style/text_style_color1_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="胆码区-红球，至少选择1个，最多5个" />
+
+    <com.lian.lottery.views.BallPanelView
+        android:id="@+id/bpv_ssq_red_dan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="6dip"
+        bpv:ballCount="33"
+        bpv:maxOverTipMsg="最多只能选择5个红色胆码球"
+        bpv:maxSelectBallCount="5"
+        bpv:startNumber="1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/tv_label2"
+        style="@style/text_style_color1_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="拖码区-红球，至少选择2个" />
+
+    <com.lian.lottery.views.BallPanelView
+        android:id="@+id/bpv_ssq_red_tuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="6dip"
+        bpv:ballCount="33"
+        bpv:startNumber="1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/tv_label3"
+        style="@style/text_style_color1_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="拖码区-蓝球，至少选择1个" />
+
+    <com.lian.lottery.views.BallPanelView
+        android:id="@+id/bpv_ssq_blue_tuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="6dip"
+        bpv:ballBackground="@drawable/selector_btn_ball_blue"
+        bpv:ballCount="16"
+        bpv:ballTextColor="@color/blue_ball_text_color"
+        bpv:ballPopBackground="@drawable/ball_blue_clicked"
+        bpv:startNumber="1" />
+
+</LinearLayout>

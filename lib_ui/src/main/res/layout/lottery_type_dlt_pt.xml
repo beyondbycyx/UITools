@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bpv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_shake_betting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:textColor="@color/blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dp"
+                android:textSize="13sp"
+                android:text="@string/shake_label" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="1dip"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_label"
+            style="@style/text_style_color1_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="至少选择5个红球2个蓝球" />
+    </LinearLayout>
+
+    <com.lian.lottery.views.BallPanelView
+        android:id="@+id/bpv_red_balls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="6dip"
+        bpv:ballCount="35"
+        bpv:startNumber="1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+    <com.lian.lottery.views.BallPanelView
+        android:id="@+id/bpv_blue_balls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="6dip"
+        bpv:ballBackground="@drawable/selector_btn_ball_blue"
+        bpv:ballCount="12"
+        bpv:ballTextColor="@color/blue_ball_text_color"
+        bpv:ballPopBackground="@drawable/ball_blue_clicked"
+        bpv:startNumber="1" />
+
+</LinearLayout>

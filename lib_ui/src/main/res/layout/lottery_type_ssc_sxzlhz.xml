@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/lottery_type_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                style="@style/text_style_white_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/number_bg"
+                android:gravity="center"
+                android:text="@string/number" >
+            </TextView>
+        </LinearLayout>
+
+        <com.lian.lottery.views.BallPanelView
+            xmlns:bpv="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bpv_sxzlhz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="6dip"
+            bpv:ballCount="22"
+            bpv:startNumber="3" />
+    </LinearLayout>
+
+</LinearLayout>

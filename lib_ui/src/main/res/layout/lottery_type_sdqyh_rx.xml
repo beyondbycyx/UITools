@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/lottery_type_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/ball_tip_label" />
+
+        <com.lian.lottery.views.BallPanelView
+            android:id="@+id/bpv_rx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="6dip"
+            xmlns:bpv="http://schemas.android.com/apk/res-auto"
+            bpv:startNumber="1"
+            bpv:ballCount="20"
+            bpv:withOmit="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>

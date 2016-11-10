@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/tv_issue"
+        style="@style/text_style_white_14"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:background="@drawable/k3_header_v_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_dice_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_dice1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_dice1_m" />
+
+        <ImageView
+            android:id="@+id/iv_dice2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/ic_dice1_m" />
+
+        <ImageView
+            android:id="@+id/iv_dice3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/ic_dice1_m" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_numbers"
+        style="@style/text_style_white_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_label1"
+        style="@style/text_style_color1_14"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_label2"
+        style="@style/text_style_color1_14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tcbpv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hsv_ball_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none" >
+
+    <com.lian.lottery.trendchart.view.TrendChartBallPanelView
+        android:id="@+id/tbpv_ball_view1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tcbpv:ballCount="4"
+        tcbpv:isFixedWidth="true"
+        tcbpv:startNumber="0" >
+    </com.lian.lottery.trendchart.view.TrendChartBallPanelView>
+
+    <com.lian.lottery.trendchart.view.TrendChartBallPanelView
+        android:id="@+id/tbpv_ball_view2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tcbpv:ballCount="4"
+        tcbpv:isFixedWidth="true"
+        tcbpv:startNumber="0" >
+    </com.lian.lottery.trendchart.view.TrendChartBallPanelView>
+
+</LinearLayout>

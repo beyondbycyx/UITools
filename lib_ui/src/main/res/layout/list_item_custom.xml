@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_btn4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/tv_creator"
+            style="@style/text_style_color1_14"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="木子**" />
+
+        <TextView
+            android:id="@+id/tv_lottery_name"
+            style="@style/text_style_color1_14"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="山东11运夺金" />
+
+        <TextView
+            android:id="@+id/tv_each_money"
+            style="@style/text_style_color1_14"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="1000元" />
+
+        <TextView
+            android:id="@+id/tv_totel_money_and_times"
+            style="@style/text_style_color1_14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/iv_operate"
+            style="@style/text_style_color1_14"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_custom_modify" />
+
+        <TextView
+            android:id="@+id/tv_operate"
+            style="@style/text_style_color1_14"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/line_color" />
+
+</LinearLayout>

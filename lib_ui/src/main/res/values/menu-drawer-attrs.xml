@@ -1,0 +1,46 @@
+<resources>
+
+    <attr name="menuDrawerStyle" format="reference" />
+
+    <declare-styleable name="MenuDrawer">
+
+        <attr name="mdContentBackground" format="reference" />
+
+        <attr name="mdMenuBackground" format="reference" />
+
+        <attr name="mdMenuSize" format="dimension" />
+
+        <attr name="mdActiveIndicator" format="reference" />
+
+        <attr name="mdDropShadowEnabled" format="boolean" />
+
+        <attr name="mdDropShadowSize" format="dimension" />
+
+        <attr name="mdDropShadowColor" format="color" />
+
+        <attr name="mdDropShadow" format="reference" />
+
+        <attr name="mdTouchBezelSize" format="dimension" />
+
+        <attr name="mdAllowIndicatorAnimation" format="boolean" />
+
+        <attr name="mdMaxAnimationDuration" format="integer" />
+        <attr name="mdSlideDrawable" format="reference" />
+
+        <attr name="mdDrawerOpenUpContentDescription" format="string" />
+
+        <attr name="mdDrawerClosedUpContentDescription" format="string" />
+
+        <attr name="mdDrawOverlay" format="boolean" />
+
+        <attr name="mdPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="start" value="4" />
+            <enum name="end" value="5" />
+        </attr>
+    </declare-styleable>
+
+</resources>

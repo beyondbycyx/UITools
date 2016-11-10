@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/k3_play_type_bg_selected" android:state_pressed="true" />
+    <item android:drawable="@drawable/k3_play_type_bg_selected" android:state_selected="true" />
+    <item>
+        <shape>
+            <corners android:radius="4dp" />
+
+            <solid android:color="#ff303030" />
+
+        </shape>
+    </item>
+</selector>
+
+
+ 

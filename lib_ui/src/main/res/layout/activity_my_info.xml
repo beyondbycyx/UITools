@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp" >
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="如需修改身份信息，请使用电脑上登录网页版"
+        android:textColor="@color/text_color_4"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text_style_color1_14"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text=" 用 户 名："
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            style="@style/text_style_color1_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/panel_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="真实姓名："
+                android:textStyle="bold" />
+
+            <ViewAnimator
+                android:id="@+id/va_realname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_realname"
+                        style="@style/text_style_color1_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_realname"
+                    style="@style/text_style_color2_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:hint="请输入真实姓名"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </ViewAnimator>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="身份证号："
+                android:textStyle="bold" />
+
+            <ViewAnimator
+                android:id="@+id/va_id_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_id_card_no"
+                        style="@style/text_style_color2_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_id_card_no"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:hint="请输入真实的身份证号码"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </ViewAnimator>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="手机号码："
+                android:textStyle="bold" />
+
+            <ViewAnimator
+                android:id="@+id/va_phone_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_phone_no"
+                        style="@style/text_style_color2_16"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/btn_update_phone_no"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/selector_panel_bg"
+                        android:text="修改"
+                        android:textColor="@color/red"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_phone_no"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:hint="请输入正确的手机号码"
+                    android:inputType="number"
+                    android:singleLine="true" />
+            </ViewAnimator>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="安全邮箱："
+                android:textStyle="bold" />
+
+            <ViewAnimator
+                android:id="@+id/va_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_email"
+                        style="@style/text_style_color2_16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="" />
+
+                    <Button
+                        android:id="@+id/btn_update_email"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/selector_panel_bg"
+                        android:text="@string/update"
+                        android:textColor="@color/red"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_email"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写您真实有效的E-mail"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+            </ViewAnimator>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                style="@style/text_style_color1_14"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="qq号码："
+                android:textStyle="bold" />
+
+            <ViewAnimator
+                android:id="@+id/va_qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_qq"
+                        style="@style/text_style_color2_16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:text="" />
+
+                    <Button
+                        android:id="@+id/btn_update_qq"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/selector_panel_bg"
+                        android:text="@string/update"
+                        android:textColor="@color/red"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_qq"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写您经常使用的qq"
+                    android:inputType="textEmailAddress"
+                    
+                    android:singleLine="true" />
+            </ViewAnimator>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_commit"
+        style="@style/text_style_white_16"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_btn1"
+        android:text="确定"
+        android:visibility="gone" />
+
+</LinearLayout>

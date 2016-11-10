@@ -1,0 +1,26 @@
+<com.lian.lottery.views.PullToRefreshScrollView2
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pull_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment_ad"
+            android:name="com.lian.lottery.activity.AdFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fragment_lottery_list"
+            android:name="com.lian.lottery.activity.LotteryListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</com.lian.lottery.views.PullToRefreshScrollView2>

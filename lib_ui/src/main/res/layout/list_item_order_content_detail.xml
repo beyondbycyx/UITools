@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_issue"
+                style="@style/text_style_color1_14"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="201345620" />
+
+            <TextView
+                android:id="@+id/tv_open_number"
+                style="@style/text_style_color1_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:id="@+id/tv_state"
+                style="@style/text_style_color1_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/text_style_color2_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="倍数:" />
+
+                <TextView
+                    android:id="@+id/tv_beishu"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    style="@style/text_style_color2_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="金额:" />
+
+                <TextView
+                    android:id="@+id/tv_money"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <ViewAnimator
+                android:id="@+id/va_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" >
+
+                <TextView
+                    android:id="@+id/tv_prize_money"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/orange" />
+
+                <Button
+                    android:id="@+id/btn_cancel_order"
+                    style="@style/text_style_color1_14"
+                    android:layout_width="60dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/selector_btn8"
+                    android:text="撤消"
+                    android:textColor="@color/cancel_order_btn_text_color" />
+            </ViewAnimator>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="18dp"
+        android:background="@color/line_color" />
+
+</LinearLayout>

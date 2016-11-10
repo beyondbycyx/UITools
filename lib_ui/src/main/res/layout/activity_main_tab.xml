@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 这里用来添加子Activity -->
+
+    <LinearLayout
+        android:id="@+id/ll_footer_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_tab1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_icon_buttom_tab"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_tab1"
+                style="@style/tab_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/ic_lottery_hall"
+                android:text="彩票大厅" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tab2"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_icon_buttom_tab"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_tab2"
+                style="@style/tab_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/ic_hemai"
+                android:text="合买跟单" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tab3"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_icon_buttom_tab"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_tab3"
+                style="@style/tab_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/ic_lottery_notice"
+                android:text="开奖公告" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tab4"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_icon_buttom_tab"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_tab4"
+                style="@style/tab_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/ic_lottery_news"
+                android:text="彩票资讯" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tab5"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_icon_buttom_tab"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_tab5"
+                style="@style/tab_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/ic_my_info"
+                android:text="用户中心" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
